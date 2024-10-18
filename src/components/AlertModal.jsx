@@ -2,7 +2,7 @@ import React from 'react';
 import { useMain } from '../context/MainContext';
 
 const AlertModal = () => {
-    const { setShowAlert, alertMessage } = useMain();
+    const { setShowAlert, alertMessage, setAlertMessage } = useMain();
     return (
         <div className="alert-modal">
             <div className="alert-content">
